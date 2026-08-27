@@ -3,7 +3,7 @@
 一个**自包含**的 Windows 桌面小工具（Tkinter GUI），用于批量处理音频/视频：
 选文件或文件夹 → 勾选操作 → 一键输出到 `<输入>/audiotool_out/`。
 
-> 自包含原则：本工具位于 `G:\tools\audio\audiotool\`，独立运行，不 import 其他工具目录，
+> 自包含原则：本工具位于 `G:\repos\audiotool`（独立仓 siwpan/audiotool），独立运行，不 import 其他工具目录，
 > 不依赖中心化共享核（复制优于共享）。
 
 ---
