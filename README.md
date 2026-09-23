@@ -1,9 +1,12 @@
 # audiotool · 音频加工工具
 
+> 仓库：<https://gitee.com/siwpan/audiotool> ｜ 许可：MIT（见 [LICENSE](LICENSE)）
+> 注：文中 <PATH> 为路径占位符，请替换为你本机实际的目录 / 可执行文件路径。
+
 一个**自包含**的 Windows 桌面小工具（Tkinter GUI），用于批量处理音频/视频：
 选文件或文件夹 → 勾选操作 → 一键输出到 `<输入>/audiotool_out/`。
 
-> 自包含原则：本工具位于 `G:\repos\audiotool`（独立仓 siwpan/audiotool），独立运行，不 import 其他工具目录，
+> 自包含原则：本工具位于 `<PATH>`（独立仓 siwpan/audiotool），独立运行，不 import 其他工具目录，
 > 不依赖中心化共享核（复制优于共享）。
 
 ---
@@ -25,7 +28,7 @@
 ## 运行方式
 
 ```bat
-"C:\Users\13122\.workbuddy\binaries\python\versions\3.13.12\python.exe" main.py
+"python" main.py
 ```
 
 前置条件：
@@ -74,7 +77,7 @@
 冒烟测试只验证 `core.py` 的**命令拼接纯函数**（不强制真跑 ffmpeg）：
 
 ```bat
-"C:\Users\13122\.workbuddy\binaries\python\versions\3.13.12\python.exe" test_core.py
+"python" test_core.py
 ```
 
 覆盖：各 `build_*_cmd` 生成参数含关键标志（`-i`、正确输出扩展名、`loudnorm`、
