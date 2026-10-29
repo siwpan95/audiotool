@@ -1,3 +1,8 @@
+> 📦 **已归档（Archived — 仅作参考）**
+> 本仓库已收入归档仓 **music-prototypes**（代码与完整 git 历史一并迁入，原仓冻结不再开发）。
+> 历史分支见归档仓的 `archive/audiotool` 分支；活跃维护请前往 **music-prototypes**。
+> _This repo is archived into music-prototypes; development continues there. Do not commit here._
+
 # audiotool · 音频加工工具
 
 > 仓库：<https://gitee.com/siwpan/audiotool> ｜ 许可：MIT（见 [LICENSE](LICENSE)）
